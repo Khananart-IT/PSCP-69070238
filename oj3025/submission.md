@@ -1,0 +1,91 @@
+1.ข้อมูล OJ
+
+หมายเลข/ชื่อโจทย์ OJ: oj3025 - Season
+
+OJ submission ID ถ้ามีการส่งแล้ว: 549402
+
+สถานะ OJ: Passed 
+
+เวลาที่ใช้คิดและทำโจทย์ด้วยตนเอง: 15-30 minutes 
+
+2.ความเข้าใจโจทย์ของฉัน
+
+อธิบายโจทย์: ในโจทย์นี้จะให้เขียนโปรแกรมแสดงฤดูกาลโดยมี 4 ฤดูคือ ฤดูหนาว ฤดูใบไม้ผลิ ฤดูร้อนและฤดูใบไม้ร่วง โดยจะแต่ฤดูก็จะอยู่ในวันที่และเดือนที่ต่างกัน
+
+Input: 1.เดือน (จำนวนเต็ม)
+       2.วันที่ (จำนวนเต็ม)
+Output: ฤดูกาล (spring, summer, fall, winter)
+
+Constraints: ฤดูกาลจะเปลี่ยนทุกๆเดือนที่ 3 หารลงตัวตั้งแต่วันที่ 21 เป็นต้นไป ดังนั้นจะต้องใส่เงื่อนไขนี้ลงไปด้วยเพื่อให้โปรแกรมทำงานได้อย่างถูกต้อง
+
+3.แผนแรกของฉัน
+
+ขั้นแรก: สร้างฟังก์ชันสำหรับการคำนวณฤดูกาล โดยจะให้มีการ input อยู่ในฟังก์ชันข้างใน
+
+ขั้นที่สอง: สร้างเงื่อนไขว่าเดือนที่ input เข้ามาเป็นเดือนที่หาร 3 ลงตัวไหม
+
+ขั้นที่สาม: สร้างเงื่อนไขว่าวันที่ที่ input เข้ามาเป็นวันที่ตั้งแต่ 21 ไหม
+
+ขั้นที่สี่: แสดง output เป็นฤดูกาล (spring, summer, fall, winter)
+
+4.วิธีสุดท้ายที่ใช้จริง:
+วิธีการสุดท้ายที่ฉันใช้เหมือนกับวิธีแรกแต่มีการเพิ่มเงื่อนไขที่ว่าถ้าเป็นเดือน 12 และวันที่เป็น 21 จะเปลี่ยนให้ฤดูกาลของ input นั้นเป็น winter
+
+5.การทดสอบของฉัน
+
+Case 1
+
+ทำไมเลือก case นี้: เพื่อทดสอบว่าเดือน 6 วันที่ 22 จะเปลี่ยนเป็นฤดูร้อนไหม
+
+Input: 6
+       22
+
+Expected output: summer
+
+Actual output: summer
+
+Result: Pass
+
+Case 2
+
+ทำไมเลือก case นี้: เพื่อทดสอบว่าเดือน 12 วันที่ 28 จะเปลี่ยนเป็นฤดูหนาวไหม
+
+Input: 12
+       28
+
+Expected output: winter
+
+Actual output: winter
+
+Result: Pass
+
+Case 3
+
+ทำไมเลือก case นี้: เพื่อทดสอบว่าเดือน 3 วันที่ 20 จะยังไม่เปลี่ยนฤดูเป็นฤดูใบไม้ผลิไหม
+
+Input: 3
+       20
+
+Expected output: winter
+
+Actual output: winter
+
+Result: Pass
+
+6.การใช้ AI
+ใช้ AI กับโจทย์นี้หรือไม่: No
+
+7.ความช่วยเหลือจากคน / การร่วมมือ
+ได้ถามเพื่อน TA ผู้สอน หรือบุคคลอื่นเพื่อขอความช่วยเหลือในโจทย์นี้หรือไม่: No
+
+8.คำรับรองของนักศึกษา
+
+| Statement | Yes/No |
+|---|---|
+| I wrote this submission in my own words. | Yes |
+| I understand my final code. | Yes |
+| I recorded the real OJ status. | Yes |
+| I did not copy AI-generated text directly into this file. | Yes |
+| I did not copy code from another person. | Yes |
+| If I received human help, I disclosed it in this file. | Yes |
+| I submitted the final code to the OJ by myself. | Yes |
