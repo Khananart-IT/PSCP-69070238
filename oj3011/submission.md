@@ -38,7 +38,10 @@ Case 1
 
 ทำไมเลือก case นี้: เป็นแม่สีที่ต่างกันทั้งหมด
 
-Input: 1.Yellow 2.Red
+Input: 
+
+  Yellow 
+  Red
 
 Expected output: Orange
 
@@ -50,7 +53,10 @@ Case 2
 
 ทำไมเลือก case นี้: มี 1 สีที่ไม่ใช่แม่สี
 
-Input: 1.Blue 2.White
+Input: 
+
+  Blue
+  White
 
 Expected output: Error
 
@@ -62,7 +68,10 @@ Case 3
 
 ทำไมเลือก case นี้: เป็นแม่สีเดียวกันทั้ง 2 สี
 
-Input: 1.Red 2.Red
+Input: 
+
+  Red
+  Red
 
 Expected output: Red
 
@@ -74,7 +83,10 @@ Case 4
 
 ทำไมเลือก case นี้: ไม่เป็นแม่สีทั้ง 2 สี
 
-Input: 1.White 2.Brown
+Input: 
+
+  White
+  Brown
 
 Expected output: Error
 
