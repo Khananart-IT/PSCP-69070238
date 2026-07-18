@@ -39,13 +39,17 @@ Case 1
 ทำไมเลือก case นี้: เพื่อทดสอบว่าถ้ามีทั้งพิกัด x และ y จะสามารถคำนวณได้ไหม
 
 Input: 20 2
+
        16 25
+       
        10 11
 
 Expected output: 139
+
                  35
 
 Actual output: 139
+
                35
 
 Result: Pass
@@ -55,16 +59,23 @@ Case 2
 ทำไมเลือก case นี้: เพื่อทดสอบว่าถ้าบางพิกัดมี 0 ผลลัพธ์จะออกมาเป็นอย่างไร
 
 Input: 23 3
+
        0 15
+       
        48 0
+       
        0 0
 
 Expected output: 31
+
                  315
+                 
                  0
 
 Actual output: 31
+
                315
+               
                0
 
 Result: Pass
