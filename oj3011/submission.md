@@ -41,6 +41,7 @@ Case 1
 Input: 
 
   Yellow
+  
   Red
 
 Expected output: Orange
@@ -56,6 +57,7 @@ Case 2
 Input: 
 
   Blue
+  
   White
 
 Expected output: Error
@@ -71,6 +73,7 @@ Case 3
 Input: 
 
   Red
+  
   Red
 
 Expected output: Red
@@ -86,6 +89,7 @@ Case 4
 Input: 
 
   White
+  
   Brown
 
 Expected output: Error
